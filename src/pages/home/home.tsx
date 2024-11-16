@@ -1,5 +1,4 @@
-
-export default Home() {
+export default Home {
     return(
         <header>
             <title>PROEJTO ALERTA</title>
