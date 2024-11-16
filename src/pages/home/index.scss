@@ -1,0 +1,28 @@
+$primary-color: #202020;
+$secondary-color: #2d2d92;
+$background-color: #ffd3aa;
+$text-color: #202020;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $text-color;
+}
+
+header {
+    background-color: $background-color;
+    padding: 40px;
+    text-align: center;
+
+    h1 {
+        color: $text-color;
+        font: 2rem;
+    }
+
+    p {
+        color: $secondary-color;
+        font-size: 1.2rem;
+    }
+}
