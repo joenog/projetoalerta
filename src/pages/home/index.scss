@@ -1,5 +1,5 @@
 $primary-color: #202020;
-$secondary-color: #2d2d92;
+$secondary-color: #923e2d;
 $background-color: #ffd3aa;
 $text-color: #202020;
 
@@ -25,4 +25,39 @@ header {
         color: $secondary-color;
         font-size: 1.2rem;
     }
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    section {
+        display: flex;
+        max-width: 80vw;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 40px;
+        gap: 20px;
+    }
+    
+    .box {
+        max-width: 300px;
+        padding: 20px;
+        border: 1px solid grey;
+        background-color: beige;
+        border-radius: 0px 20px;
+        box-shadow: 2px 2px 4px rgb(190, 190, 190);
+
+        h2 {
+            margin: 10px 0px;
+        }
+    }
+
+}
+
+footer {
+    background-color: $primary-color;
+    padding: 40px;
 }
