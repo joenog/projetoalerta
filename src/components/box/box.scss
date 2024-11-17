@@ -1,0 +1,17 @@
+.box {
+     max-width: 320px;
+     padding: 20px;
+     border: 1px solid #20202015;
+     background-color: beige;
+     border-radius: 0px 20px;
+     box-shadow: 2px 2px 5px #20202015;
+
+     h2 {
+         margin: 10px 0;
+         color: #333;
+     }
+
+     p {
+         color: #555;
+     }
+}

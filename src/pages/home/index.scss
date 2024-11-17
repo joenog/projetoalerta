@@ -12,46 +12,72 @@ $text-color: #202020;
 }
 
 header {
+    display: flex;
+    align-items: center;
     background-color: $background-color;
+    box-shadow: 2px 2px 5px #202015;
     padding: 40px;
-    text-align: center;
+
+    .titleHeader {
+        width: 100vw;
+    }
 
     h1 {
         color: $text-color;
-        font: 2rem;
+        font-size: 2rem;
     }
+
 
     p {
         color: $secondary-color;
         font-size: 1.2rem;
     }
+
+    img {
+        position: absolute;
+        width: 50px;
+        top: 140px;
+        border-radius: 100px;
+        box-shadow: 2px 2px grey;
+    }
+
 }
 
 main {
+    max-width: 98vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    .subTitle {
+        width: 100vw;
+        text-align: center;
+        color: whitesmoke;
+        padding: 30px;
+        background-color: $primary-color;
+    }
     
     section {
         display: flex;
-        max-width: 80vw;
         flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 40px;
+        justify-content: space-evenly;
+        padding: 60px;
         gap: 20px;
-    }
     
-    .box {
-        max-width: 300px;
-        padding: 20px;
-        border: 1px solid grey;
-        background-color: beige;
-        border-radius: 0px 20px;
-        box-shadow: 2px 2px 4px rgb(190, 190, 190);
+    }
 
-        h2 {
-            margin: 10px 0px;
+    .alertaImg {
+        position: absolute;
+        width: 50px;
+        
+    }
+
+     @media screen and (max-width: 768px) {
+    
+        /* Estilos para celular */
+        section {
+            padding: 20px 10px;
         }
     }
 

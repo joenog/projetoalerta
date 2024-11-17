@@ -1,0 +1,15 @@
+.menu {
+    display: flex;
+    width:  20vw;
+    justify-content: end;
+
+    
+    li {
+        list-style: none;
+        text-decoration: none;
+        padding: 5px;
+        margin: 5px;
+        border: 1px solid gray;
+        border-radius: 5px
+    };
+}

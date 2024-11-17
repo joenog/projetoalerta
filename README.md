@@ -51,7 +51,7 @@ export default tseslint.config({
 ```
 =======
 # projetoalerta
-Projeto Iniversitário
+Projeto Universitário
 Projeto criado por Joab Nogueira (@joenog). Com o propósito de alertar as comunidades da cidade da Serra, no Espirito santo,
 sobre o perigo da proliferação do mosquido Aedes aegypti.
 >>>>>>> e2b4ecb432477c05b8c792d2d3ae0859c08e6b88
