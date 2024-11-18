@@ -1,11 +1,24 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Home from './pages/home/index'
+import Dados from './pages/sobre/dados'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />
+  },
+  {
+    path: "/sobre",
+    element: <Dados/>
+  }
+]);
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
 
-    <Home/>
+    <RouterProvider router={router}/>
 
   </StrictMode>,
 )

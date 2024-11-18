@@ -6,8 +6,8 @@ export default function Menu(props:any) {
 
         <div className="menu">
         <ul>
-                <li> <Link href="/index"> {props.inicio} </Link> </li>
-                <li> <Link href="/sobre"> {props.sobre} </Link> </li>
+                <li> <Link href="/"> {props.inicio} </Link> </li>
+                <li> <Link href="/sobre"> {props.dados} </Link> </li>
         </ul>
     </div>
     )

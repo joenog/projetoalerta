@@ -1,6 +1,6 @@
 import './index.scss';
 import Box from '../../components/box/box';
-import Menu from '../../components/menu/menu'
+import Menu from '../../components/menu/menu';
 
 export default function Home() {
     return(
@@ -9,10 +9,10 @@ export default function Home() {
             <header>
                 <div className='titleHeader'>
                     <h1>PROJETO ALERTA</h1>
-                    <p>Previnir salva vidas</p>
+                    <p>Previnir salva vidas!</p>
                 </div>
                 <div>
-                    <Menu inicio="Ínicio" sobre="Sobre"> </Menu>
+                    <Menu inicio="Ínicio" dados="Dados"> </Menu>
                     <img src="./img/alerta.png" alt="" />
                 </div>
             </header>
@@ -24,7 +24,7 @@ export default function Home() {
                     <div>
                         <img className='alertaImg' src='./img/mosquito.png'/>
                         <Box
-                            title="O que são arboviroses"
+                            title="O que são arboviroses?"
                             content="As arboviroses, como Dengue, Chikungunya e Zika, são doenças transmitidas pelo mosquito Aedes aegypti. Esses mosquitos se proliferam em ambientes com água parada e são os principais responsáveis pela transmissão das doenças. A prevenção é essencial para controlar a propagação desses vírus e proteger a saúde da comunidade."
                         />
                     </div>
@@ -57,8 +57,13 @@ export default function Home() {
                 <h2 className='subTitle'>Ajude</h2>
                 <section>
                     <Box
-                        title="Ações Comunitárias de Controleika"
+                        title="Ações Comunitárias de Controle"
                         content="A prevenção das arboviroses depende do esforço coletivo de todos os moradores da comunidade. Para isso, é necessário promover ações de conscientização sobre a importância de eliminar criadouros de mosquitos e adotar hábitos que dificultem a proliferação. Organizar mutirões de limpeza, fiscalizar áreas de risco e garantir a cobertura de depósitos de água são medidas simples, mas eficazes."
+                    />
+
+                    <Box
+                        img="/public/img/ajude.png"
+                        content="Ajudar faz bem! :D"
                     />
 
                     <Box
@@ -69,7 +74,8 @@ export default function Home() {
             </main>
 
             <footer>
-                <h1>Footer</h1>
+                <p>Projeto criado por Joab Nogueira, com o intuito de espalhar informações sobre os cuidados e a prevenção contra o mosquito da dengue. Com a chegada do verão, o número de casos aumenta, e a prevenção é a nossa melhor aliada.</p>
+                <p>Joenog ©</p>
             </footer>
         </>
     );

@@ -3,10 +3,13 @@
     width:  20vw;
     justify-content: end;
 
+    a {
+        text-decoration: none;
+        padding: 5px;
+    }
     
     li {
         list-style: none;
-        text-decoration: none;
         padding: 5px;
         margin: 5px;
         border: 1px solid gray;
