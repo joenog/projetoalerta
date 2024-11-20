@@ -1,4 +1,4 @@
-import './dados.scss';
+import '../home/index.scss';
 import Menu from '../../components/menu/menu';
 import React, { useEffect, useState } from "react";
 
