@@ -11,7 +11,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/sobre",
-    element: <Dados/>
+    element: <Dados />
   }
 ]);
 

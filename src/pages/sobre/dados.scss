@@ -15,7 +15,6 @@ header {
     display: flex;
     align-items: center;
     background-color: $background-color;
-    box-shadow: 2px 2px 5px #202015;
     padding: 40px;
 
     .titleHeader {
@@ -79,6 +78,21 @@ main {
         section {
             padding: 20px 10px;
         }
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+    
+    th,
+    td {
+        border: 1px solid #c4c4c4;
+        padding: 8px;
+        text-align: left;
+    }
+    
+    th {
+        background-color: #c4c4c4;
     }
 
 }
