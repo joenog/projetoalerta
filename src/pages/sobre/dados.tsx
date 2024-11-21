@@ -1,6 +1,6 @@
 import '../home/index.scss';
 import Menu from '../../components/menu/menu';
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 type ApiData = {
     data_iniSE: number;
@@ -18,10 +18,8 @@ export default function Dados() {
 
     const apiUrl = "src/pages/sobre/apiDados.json";
 
-    // Lista de campos que serão exibidos na tabela
     const camposSelecionados = ["data_iniSE", "SE", "casos_est", "pop", "casprov"];
 
-    // Função para formatar a data
     const formatarData = (timestamp: number): string => {
         const data = new Date(timestamp);
         return data.toLocaleDateString("pt-BR");
