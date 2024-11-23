@@ -11,6 +11,10 @@ $text-color: #202020;
     color: $text-color;
 }
 
+body {
+    background-color: white;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -62,6 +66,7 @@ main {
         justify-content: space-evenly;
         padding: 60px;
         gap: 20px;
+        background-color: white;
 
     }
 

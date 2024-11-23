@@ -1,4 +1,4 @@
-import '../home/index.scss';
+import './page.scss';
 import Menu from '../../components/menu/menu';
 import { useEffect, useState } from "react";
 
@@ -16,7 +16,7 @@ export default function Dados() {
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
 
-    const apiUrl = "src/pages/sobre/apiDados.json";
+    const apiUrl = "/apiDados.json";
 
     const camposSelecionados = ["data_iniSE", "SE", "casos_est", "pop", "casprov"];
 
@@ -56,15 +56,14 @@ export default function Dados() {
 
     return (
         <>
-            <div id="root"></div>
             <header>
                 <div className="titleHeader">
                     <h1>PROJETO ALERTA</h1>
                     <p>Previnir salva vidas!</p>
                 </div>
                 <div>
-                    <Menu inicio="Ínicio" dados="Dados"> </Menu>
-                    <img src="./img/alerta.png" alt="" />
+                    <Menu inicio="Ínicio" dados="Dados" />
+
                 </div>
             </header>
 
