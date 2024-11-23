@@ -1,12 +1,15 @@
-import './box.scss'
+import './box.scss';
 
-export default function Box(props: any) {
-    return(
+interface MyBoxProps {
+    title: string;
+    content: string;
+}
+
+export default function Box({ title, content }: MyBoxProps) {
+    return (
         <div className='box'>
-            <img src={props.img} alt="" width={30} height={30}/>
-            <h2>{props.title}</h2>
-            <p>{props.content}</p>
-                
+            <h2>{title}</h2>
+            <p>{content}</p>
         </div>
-    )
+    );
 }
