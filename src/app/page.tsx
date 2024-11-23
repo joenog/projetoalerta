@@ -59,12 +59,10 @@ export default function Home() {
           />
 
           <Box
-            content="Ajudar faz bem! :D"
-            img="./ajude.png"
-          />
+            content="Ajudar faz bem! :D" title={''}          />
+
           <Box
-            content="Cada pessoa pode fazer a diferença no combate às arboviroses. Além de eliminar focos de água parada em sua residência, lembre-se de utilizar repelentes e telas de proteção para evitar a picada do mosquito. Ao adotar esses cuidados, você estará contribuindo para a saúde da sua comunidade e ajudando a reduzir a propagação dessas doenças."
-          />
+            content="Cada pessoa pode fazer a diferença no combate às arboviroses. Além de eliminar focos de água parada em sua residência, lembre-se de utilizar repelentes e telas de proteção para evitar a picada do mosquito. Ao adotar esses cuidados, você estará contribuindo para a saúde da sua comunidade e ajudando a reduzir a propagação dessas doenças." title={''}          />
         </section>
       </main>
 
